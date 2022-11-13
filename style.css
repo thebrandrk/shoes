@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: "gilroy";
+}
+
+#baap1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#main1{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1520316587275-5e4f06f355e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    color: cornsilk;
+    
+}
+
+
+
+#text1{
+    left: 15%;
+    top: 7%;
+    align-items: center;
+    position: absolute;
+}
+
+#main .ri-map-pin-range-fill{
+    font-size: 18px;
+}
+
+#main1 a{
+    color: cornsilk;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#main a sup{
+    font-size: 12px;
+}
+
+#strip{
+    left: 15%;
+    position: absolute;
+    bottom: 10%;
+}
+
+#strip1{
+    width: 600%;
+    height: 3px;
+    background-color: rgba(245, 222, 179, 0.452);
+}
+
+#strip2{
+    width: 0%;
+    height: 3px;
+    background-color: wheat;
+}
+
+#icon{
+    display: flex;
+    position: absolute;
+    top: 110%;
+    left: 530%;
+}
+
+#main2{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;    
+    background-size: cover;
+}
+
+#web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 19%;
+}
+
+#web a{
+    text-decoration: none;
+    font-family: "gilroy";
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+#menu a{
+    padding-right: 12px;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+#main2 img{
+    position: absolute;
+    height: 20%;
+    top: 40%;
+    left: 5%;
+    
+}
+
+#about{
+    position: absolute;
+    font-size: 12px;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+}
+
+#about h1{
+    padding-bottom: 5px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+#ulta{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 25%;
+    right: -5%;
+}
+
+#ulta h1{
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#about h3{
+    font-weight: 500;
+}
+
+.ri-menu-5-line{
+    position: absolute;
+    padding-top: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+#main3{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#topper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 19%;
+}
+
+#topper h1{
+    font-weight: 500;
+    color: rgb(29, 29, 29);
+    font-size: 14px;
+}
+
+#topper #rotate{
+    position: absolute;
+    transform: rotate(-90deg);
+    right: 1%;
+    top: 32px;
+    letter-spacing: 2px;
+}
+
+#rghtbtm{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+#rghtbtm h1{
+    position: absolute;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0%;
+    color: #333
+}
+
+#rghtbtm h5{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#baap2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#drop{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+#drop h5{
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+
+#drop h1{
+    font-size: 45px;
+}
+
+#material{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+
+#material h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+
+#material p{
+    font-size: 12px;
+}
+
+#price{
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+}
+
+#price h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+
+#price p{
+    font-size: 12px;
+}
+
+#social{
+    position: absolute;
+    top: 66%;
+    left: 45%;
+}
+
+#social h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+#social i{
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+#videoback{
+    position: absolute;
+    right: 0%;
+    width: 40%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1520256862855-398228c41684?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#video{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1508125673219-7cec6bc90159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+#left{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    color: whitesmoke;
+}
+
+#left h6{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 0.13);
+}
+
+#beta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+
+.ri-play-fill{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#right{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    color: whitesmoke;
+    left: 90%;
+}
+
+#right h6{
+    transform: rotate(-90deg);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
